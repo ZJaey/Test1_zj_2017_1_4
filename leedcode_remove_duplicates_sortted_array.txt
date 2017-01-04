@@ -1,0 +1,67 @@
+/*
+**  @brief Remove Duplicates from Sorted Array
+**  parameter Array
+*/
+//int 
+#define Number  1000
+int removeDuplicateSArray(int Array[Number],int _len)//必须给出数组的实际大小，不然不满足sorted这个条件
+{
+int _index = 0;
+if (sizeof(Array) < 1)
+{
+return 1;
+}
+for (int i = 0; i < _len; i++) //数组在声明的时候就会给各个位上赋值，没有手动赋值的部分会随机赋值
+{
+if (Array[_index] == Array[i])
+{
+}
+else
+{
+++_index;
+Array[_index] = Array[i];
+}         
+}
+return _index;
+}
+
+
+/*
+** @brief   
+**
+**
+*/
+int reSetArray(int _array[Number], unsigned int _len)
+{
+if (_len <= 1)
+{
+return _len;
+}
+else
+{
+int _times = 1; //show times
+int _index = 1; //the index of the new of the array
+for (int i = 1; i < _len; i++)
+{
+if (_array[i] == _array[i-1])
+{
+++_times;
+if (_times > 2)
+{
+}
+else
+{
+_array[_index] = _array[i];
+++_index;
+}
+}
+else
+{
+_times = 1;
+_array[_index] = _array[i];
+++_index;
+}
+}
+return _index;
+}
+}
