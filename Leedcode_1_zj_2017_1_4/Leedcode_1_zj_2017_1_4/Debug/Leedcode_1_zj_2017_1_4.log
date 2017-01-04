@@ -1,0 +1,39 @@
+﻿  stdafx.cpp
+  LRU.cpp
+e:\git\gitfiles\test1_zj_2017_1_4\leedcode_1_zj_2017_1_4\leedcode_1_zj_2017_1_4\lru.cpp(6): error C3867: “std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::end”:  函数调用缺少参数列表；请使用“&std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::end”创建指向成员的指针
+          with
+          [
+              _Kty=int
+  ,            _Ty=std::_List_iterator<std::_List_val<std::_List_simple_types<LRU::LrucacheNdoe>>>
+  ,            _Pr=std::less<int>
+  ,            _Alloc=std::allocator<std::pair<const int,std::_List_iterator<std::_List_val<std::_List_simple_types<LRU::LrucacheNdoe>>>>>
+          ]
+e:\git\gitfiles\test1_zj_2017_1_4\leedcode_1_zj_2017_1_4\leedcode_1_zj_2017_1_4\lru.cpp(6): error C2678: 二进制“==”: 没有找到接受“std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>”类型的左操作数的运算符(或没有可接受的转换)
+          with
+          [
+              _Kty=int
+  ,            _Ty=std::_List_iterator<std::_List_val<std::_List_simple_types<LRU::LrucacheNdoe>>>
+          ]
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(321): 可能是“bool std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>::operator ==(const std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> &) const”
+          with
+          [
+              _Kty=int
+  ,            _Ty=std::_List_iterator<std::_List_val<std::_List_simple_types<LRU::LrucacheNdoe>>>
+          ]
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(507): 或       “bool std::operator ==(const std::exception_ptr &,std::nullptr_t)”
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(502): 或       “bool std::operator ==(std::nullptr_t,const std::exception_ptr &)”
+          c:\program files (x86)\microsoft visual studio 12.0\vc\include\exception(497): 或       “bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)”
+          尝试匹配参数列表“(std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>, overloaded-function)”时
+          with
+          [
+              _Kty=int
+  ,            _Ty=std::_List_iterator<std::_List_val<std::_List_simple_types<LRU::LrucacheNdoe>>>
+          ]
+e:\git\gitfiles\test1_zj_2017_1_4\leedcode_1_zj_2017_1_4\leedcode_1_zj_2017_1_4\lru.cpp(12): error C3867: “std::list<LRU::LrucacheNdoe,std::allocator<_Ty>>::begin”:  函数调用缺少参数列表；请使用“&std::list<LRU::LrucacheNdoe,std::allocator<_Ty>>::begin”创建指向成员的指针
+          with
+          [
+              _Ty=LRU::LrucacheNdoe
+          ]
+e:\git\gitfiles\test1_zj_2017_1_4\leedcode_1_zj_2017_1_4\leedcode_1_zj_2017_1_4\lru.cpp(24): error C2059: 语法错误:“)”
+  Leedcode_1_zj_2017_1_4.cpp
+  正在生成代码...
